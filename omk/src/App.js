@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import {FaBars} from 'react-icons/lib/fa'
+import {FaBars, FaGlobe} from 'react-icons/lib/fa'
 
 class App extends Component {
   render() {
@@ -22,8 +22,15 @@ class App extends Component {
           </p>
 
           <div className="quote-container">
+          <div className="quote-icon">
+             <FaGlobe />
+          </div>
             <div className="quote-button">
               <button> Get A Quote </button>
+              <div className="quote-info">
+                <p> Returning Client ? </p>
+                <a href="#"> Click Here </a>
+              </div>
             </div>
           </div>
 

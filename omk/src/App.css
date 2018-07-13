@@ -60,14 +60,21 @@ main{
 .quote-container{
   display: flex;
   flex-flow: column;
-  justify-content: center;
+  justify-content: space-around;
   box-sizing: border-box;
-  height:500px;
+  height:400px;
 }
 
 .quote-button{
   display: flex;
-  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+}
+
+.quote-icon {
+  text-align: center;
+  font-size: 12em;
+  color:pink;
 }
 
 .quote-button button {
@@ -83,6 +90,21 @@ main{
 
 .quote-button button:hover{
   color:aqua;
+}
+
+.quote-info{
+  text-align: center;
+  margin:0;
+  font-size: 1em;
+}
+
+.quote-info a, .quote-info p {
+  font-family: monospace;
+  margin: 1em 0 0.3em 0;
+}
+
+.quote-info a {
+  color:navy;
 }
 /* cards...........................................*/
 
