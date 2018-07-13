@@ -77,6 +77,8 @@ main{
   justify-content: space-around;
   box-sizing: border-box;
   height:400px;
+
+
 }
 
 .quote-button{
@@ -84,7 +86,6 @@ main{
   flex-flow: column;
   align-items: center;
 }
-
 
 .quote-icon {
   margin: 0 auto;
@@ -96,15 +97,14 @@ main{
   animation-delay: 3s;
 }
 
-
-
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
 
 .quote-button button {
-  width: 80%;
+  width: 90%;
+  max-width: 350px;
   border-radius: 90px;
   font-size: 2em;
   background: tomato;
@@ -139,3 +139,26 @@ main{
   border:blue solid 3px;
   height:300px;
 }
+
+
+/* media querys...........................................*/
+ @media screen and (min-width:980px){
+
+   .quote-container{
+     flex-flow: row;
+     justify-content: space-between;
+     align-items: center;
+   }
+
+  .icon-container, .quote-button {
+     flex: 1;
+   }
+
+   .quote-icon {
+     font-size: 20em;
+   }
+
+   .quote-button button{
+     font-size: 2.3em;
+   }
+ }
