@@ -1,7 +1,8 @@
 
 .App {
-  text-align: center;
+  text-align: left;
   font-size: 16px;
+  color:white;
 }
 
 main{
@@ -9,6 +10,8 @@ main{
   max-width: 1200px;
   border: red solid 2px;
   padding:0 1em;
+  height:800px;
+  background: linear-gradient(tomato,aqua)
 }
 /* Header...........................................*/
 
@@ -22,6 +25,7 @@ main{
   border: #222 solid 2px;;
   box-sizing: content-box;
   padding:0 20px 0 20px;
+  background: tomato;
 
 }
 
@@ -32,15 +36,15 @@ main{
 
 /* intro...........................................*/
 .App-intro {
-  font-size: 1em;
+  font-size: 1.3em;
   margin: 1em 1em 1em 0;
-  animation: intro 6s;
+  animation: intro 3s;
 }
 
 .App-intro2 {
-  font-size: 1em;
+  font-size: 1.3em;
   margin: 1em 1em 1em 0;
-  animation: intro 10s;
+  animation: intro 6s;
 }
 
 @keyframes App-logo-spin {
@@ -50,14 +54,40 @@ main{
 
 @keyframes intro {
     from {color: white; font-size:.7em; }
-    to {color: black; font-size:1em; }
+    to {color: black; font-size:1.3em; }
 }
 
+.quote-container{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  box-sizing: border-box;
+  height:500px;
+}
+
+.quote-button{
+  display: flex;
+  justify-content: center;
+}
+
+.quote-button button {
+  width: 70%;
+  border-radius: 90px;
+  font-size: 2em;
+  background: tomato;
+  color:white;
+  border: tomato solid 1px;
+  cursor: pointer;
+  outline: 0;
+}
+
+.quote-button button:hover{
+  color:aqua;
+}
 /* cards...........................................*/
 
 .card-container{
   box-sizing: border-box;
-  width: 100%;
   border:blue solid 3px;
-  height:40px;
+  height:300px;
 }

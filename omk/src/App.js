@@ -7,21 +7,30 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+
         <header className="App-header">
           <h1 className="App-logo">logo</h1>
           <h1 className="App-menu"> <FaBars /> </h1>
         </header>
+
         <main>
           <p className="App-intro">
-            {"welcome"}
+            {"Welcome"}
           </p>
           <p className="App-intro2">
-            {"we specialize in web & logo design"}
+            {"Looking for Website Design?"}
           </p>
 
-          <div className="card-container">
+          <div className="quote-container">
+            <div className="quote-button">
+              <button> Get A Quote </button>
+            </div>
           </div>
+
+
         </main>
+
+
 
       </div>
     );
