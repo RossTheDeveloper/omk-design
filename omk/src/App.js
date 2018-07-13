@@ -27,9 +27,11 @@ class App extends Component {
           </div>
 
           <div className="quote-container">
-          <div className="quote-icon">
-             <FaGlobe />
-          </div>
+            <div className="icon-container">
+              <div className="quote-icon">
+                 <FaGlobe />
+              </div>
+            </div>
             <div className="quote-button">
               <button> Get A Quote </button>
               <div className="quote-info">

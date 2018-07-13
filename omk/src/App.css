@@ -85,7 +85,10 @@ main{
   align-items: center;
 }
 
+
 .quote-icon {
+  margin: 0 auto;
+  width:70%;
   text-align: center;
   font-size: 12em;
   color:pink;
@@ -93,13 +96,15 @@ main{
   animation-delay: 3s;
 }
 
+
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
 
 .quote-button button {
-  width: 70%;
+  width: 80%;
   border-radius: 90px;
   font-size: 2em;
   background: tomato;
