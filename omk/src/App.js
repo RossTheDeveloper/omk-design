@@ -10,7 +10,7 @@ class App extends Component {
 
         <div className="Header-fix">
         <header className="App-header">
-          <h1 className="App-logo">logo</h1>
+          <h1 className="App-logo">OMK</h1>
           <h1 className="App-menu"> <FaBars /> </h1>
         </header>
         </div>
@@ -43,6 +43,14 @@ class App extends Component {
 
 
         </main>
+
+        <article className="into-projs-container">
+          <div className="projs">
+          </div>
+
+          <div className="projs">
+          </div>
+        </article>
 
 
 

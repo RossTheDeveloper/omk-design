@@ -3,14 +3,13 @@
   text-align: left;
   font-size: 16px;
   color:white;
-  height: 1200px;
+
 }
 
 .Header-fix{
   width:100%;
   position:fixed;
   top:0px;
-
   z-index: 500;
 }
 
@@ -24,9 +23,6 @@ main{
 }
 /* Header...........................................*/
 
-.App-logo {
-  /* animation: App-logo-spin infinite 20s linear; */
-}
 
 .App-header {
   display: flex;
@@ -35,13 +31,10 @@ main{
   box-sizing: content-box;
   padding:0 20px 0 20px;
   background: tomato;
-
 }
 
 
-.App-title {
-  font-size: 1.5em;
-}
+
 
 /* intro...........................................*/
 .intro-container{
@@ -57,14 +50,12 @@ main{
 
 .App-intro2 {
   font-size: 1.4em;
+  font-family: serif;
   margin: 1em 1em 1em 0;
-  animation: intro 4s;
+  animation: intro 5s;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
+
 
 @keyframes intro {
     from {color: tomato; font-size:.7em; }
