@@ -1,3 +1,7 @@
+/*work on article last*/
+
+
+
 
 .App {
   text-align: left;
@@ -21,7 +25,43 @@ main{
   height:800px;
   background: linear-gradient(tomato,aqua)
 }
+/* move below ...........................................*/
+
+aside{
+  display: flex;
+  flex-flow: column;
+  overflow: hidden;
+}
+
+
+
+aside nav ul {
+  max-width: 1200px;
+  margin:0 auto;
+  display: flex;
+  padding-left: 0;
+  flex-flow:column;
+
+}
+
+aside nav ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  flex: 0 0 55px;
+  background: #FFF0F5;
+  font-size: 1.25em;
+  color:black;
+
+}
+
+
+
+
 /* Header...........................................*/
+
+
 
 
 .App-header {
@@ -152,5 +192,11 @@ main{
 
    .quote-button button{
      font-size: 2.3em;
+   }
+
+   @keyframes App-logo-spin {
+     0% { transform: rotate(0deg); font-size: 20em; color: pink;}
+     50% { transform: rotate(360deg); font-size: 7em; color: aqua; }
+     100%{ transform: rotate(0deg); font-size: 20em; color:pink; }
    }
  }

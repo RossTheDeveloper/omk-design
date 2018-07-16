@@ -1,19 +1,15 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-import {FaBars, FaGlobe} from 'react-icons/lib/fa'
-
+import { FaGlobe} from 'react-icons/lib/fa'
+import Header from "./Header"
 class App extends Component {
   render() {
     return (
       <div className="App">
 
-        <div className="Header-fix">
-        <header className="App-header">
-          <h1 className="App-logo">OMK</h1>
-          <h1 className="App-menu"> <FaBars /> </h1>
-        </header>
-        </div>
+        <Header />
+
+
 
         <main>
 
